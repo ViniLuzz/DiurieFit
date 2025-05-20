@@ -12,7 +12,7 @@ const HeroSection = () => {
       </div>
 
       {/* Hero section with product image */}
-      <div className="bg-diurie-dark min-h-[80vh] flex flex-col md:flex-row items-center justify-center py-12 px-4 md:px-8 lg:px-12 bg-[url('/lovable-uploads/6c224e4c-454b-4188-ae82-abbbf08735d8.png')] bg-cover bg-center bg-opacity-80">
+      <div className="bg-diurie-dark min-h-[80vh] flex flex-col md:flex-row items-center justify-center py-12 px-4 md:px-8 lg:px-12">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/2 text-left space-y-6">
             <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
@@ -20,14 +20,13 @@ const HeroSection = () => {
               <span className="text-diurie-orange">Fit Black</span>
             </h1>
             <h2 className="text-diurie-orange text-2xl md:text-3xl font-bold">
-              Pó emagrecedor 10x <br />
-              mais eficaz <span className="text-white">com sabor <br />de laranja</span>
+              Transforme seu corpo: <span className="text-white">resultados <br />em apenas 6 dias!</span>
             </h2>
             <p className="text-white text-base md:text-lg">
-              O DiurieFit Black é diferente de tudo que existe no mercado. O que levaria 30 dias, agora você terá resultados nos primeiros 6 dias de uso.
+              Suplemento em pó com sabor de laranja, 10x mais eficaz na queima de gordura e redução de inchaço.
             </p>
             <a href="#comprar" className="cta-button inline-block w-full md:w-auto">
-              É ISSO QUE PRECISO!
+              QUERO TRANSFORMAR MEU CORPO!
             </a>
           </div>
           <div className="md:w-1/2 flex justify-center">
@@ -43,7 +42,7 @@ const HeroSection = () => {
       {/* Orange banner */}
       <div className="bg-diurie-orange py-6 px-4 text-center">
         <h3 className="text-white text-xl md:text-2xl lg:text-3xl font-bold">
-          Nova embalagem <span className="text-diurie-dark">novos resultados!</span>
+          Nova fórmula <span className="text-diurie-dark">resultados mais rápidos!</span>
         </h3>
       </div>
       
