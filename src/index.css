@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +98,22 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .highlight-text {
+    @apply text-diurie-orange font-semibold;
+  }
+
+  .cta-button {
+    @apply bg-diurie-cta text-white font-bold py-3 px-6 rounded-lg uppercase tracking-wider shadow-lg hover:brightness-110 transition-all transform hover:scale-105 text-center;
+  }
+  
+  .product-benefit-card {
+    @apply bg-white rounded-2xl p-6 shadow-md transition-all hover:shadow-lg flex flex-col items-center;
+  }
+  
+  .ingredient-card {
+    @apply bg-white rounded-2xl p-6 shadow-lg flex flex-col items-center relative overflow-hidden;
   }
 }
