@@ -1,6 +1,5 @@
 
 import HeroSection from "@/components/HeroSection";
-import BeforeAfterSection from "@/components/BeforeAfterSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import IngredientsSection from "@/components/IngredientsSection";
 import SafetySection from "@/components/SafetySection";
@@ -16,7 +15,6 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <main>
         <HeroSection />
-        <BeforeAfterSection />
         <BenefitsSection />
         <IngredientsSection />
         <SafetySection />
