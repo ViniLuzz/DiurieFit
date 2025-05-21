@@ -1,7 +1,7 @@
 
 const UsageSection = () => {
   return (
-    <div className="bg-gray-100 py-16">
+    <div className="bg-diurie-dark py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <img 
@@ -13,7 +13,7 @@ const UsageSection = () => {
         
         {/* Full-width guarantee section */}
         <div className="w-full mt-20">
-          <div className="bg-diurie-dark text-white p-8 rounded-lg max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-center justify-center">
+          <div className="bg-diurie-dark text-white p-8 rounded-lg max-w-3xl mx-auto flex flex-col md:flex-row gap-8 items-center justify-center border border-diurie-orange">
             <div className="max-w-md">
               <h3 className="text-xl font-bold mb-3">
                 Acreditamos tanto no nosso produto que você terá a <span className="text-diurie-orange">Super Garantia</span> de 30 dias!
