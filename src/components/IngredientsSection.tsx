@@ -57,11 +57,11 @@ const IngredientsSection = () => {
           bebida emagrecedora do Brasil
         </h3>
 
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
             {ingredientGroups[activeTab].map((ingredient, index) => (
               <div key={index} className="flex flex-col items-center">
-                <div className="w-full max-w-[400px] mx-auto">
+                <div className="w-full max-w-[650px] mx-auto">
                   <AspectRatio ratio={1/1}>
                     <img 
                       src={ingredient.image} 
