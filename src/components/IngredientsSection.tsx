@@ -1,6 +1,14 @@
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext
+} from "@/components/ui/carousel";
+import { useCarousel } from "@/components/ui/carousel";
 
 const IngredientsSection = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -42,8 +50,8 @@ const IngredientsSection = () => {
     ]
   ];
 
-  // Function to handle carousel nav
-  const handleSlideChange = (index: number) => {
+  // Function to handle carousel indicator click
+  const handleTabChange = (index: number) => {
     setActiveTab(index);
   };
 
@@ -58,28 +66,38 @@ const IngredientsSection = () => {
         </h3>
 
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
-            {ingredientGroups[activeTab].map((ingredient, index) => (
-              <div key={index} className="flex flex-col items-center">
-                <div className="w-full max-w-[650px] mx-auto">
-                  <AspectRatio ratio={1/1}>
-                    <img 
-                      src={ingredient.image} 
-                      alt={ingredient.name}
-                      className="w-full h-full object-contain rounded-xl"
-                    />
-                  </AspectRatio>
-                </div>
-              </div>
-            ))}
-          </div>
+          <Carousel className="mb-12">
+            <CarouselContent>
+              {ingredientGroups.map((group, groupIndex) => (
+                <CarouselItem key={`group-${groupIndex}`}>
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    {group.map((ingredient, index) => (
+                      <div key={`${groupIndex}-${index}`} className="flex flex-col items-center">
+                        <div className="w-full max-w-[650px] mx-auto">
+                          <AspectRatio ratio={1/1}>
+                            <img 
+                              src={ingredient.image} 
+                              alt={ingredient.name}
+                              className="w-full h-full object-contain rounded-xl"
+                            />
+                          </AspectRatio>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-2 bg-white/70 hover:bg-white border-none" />
+            <CarouselNext className="right-2 bg-white/70 hover:bg-white border-none" />
+          </Carousel>
 
           {/* Carousel Indicators */}
           <div className="flex justify-center gap-2 mb-10">
             {ingredientGroups.map((_, index) => (
               <button 
                 key={index} 
-                onClick={() => handleSlideChange(index)}
+                onClick={() => handleTabChange(index)}
                 className={`w-3 h-3 rounded-full transition-all ${index === activeTab ? 'bg-diurie-dark scale-125' : 'bg-white'}`}
                 aria-label={`View ingredient page ${index + 1}`}
               />
