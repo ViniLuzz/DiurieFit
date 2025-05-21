@@ -6,7 +6,7 @@ const UsageSection = () => {
     <div className="bg-diurie-dark py-16">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-center justify-center px-4">
         {/* Super Garantia Section */}
-        <div className="bg-diurie-dark text-white p-6 rounded-lg border border-diurie-orange md:max-w-md">
+        <div className="bg-diurie-dark text-white p-6 rounded-lg">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
             Acreditamos tanto no nosso produto que você terá a <span className="text-diurie-orange">Super Garantia</span> de 30 dias!
           </h3>
