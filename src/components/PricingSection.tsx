@@ -37,6 +37,19 @@ const PricingSection = () => {
               <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
                 COMPRAR AGORA
               </button>
+              
+              {/* Payment methods box - smaller than the button */}
+              <div className="bg-diurie-orange rounded-lg py-2 px-3 mt-3 w-11/12 mx-auto">
+                <p className="text-white text-xs text-center font-medium mb-1">FORMAS DE PAGAMENTO</p>
+                <div className="flex flex-wrap justify-center gap-1">
+                  <img 
+                    src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
+                    alt="Métodos de pagamento" 
+                    className="h-auto w-full"
+                  />
+                </div>
+              </div>
+              
               <div className="flex items-center justify-center mt-4">
                 <span className="text-sm">FRETE GRÁTIS PARA TODO O BRASIL</span>
               </div>
@@ -66,6 +79,19 @@ const PricingSection = () => {
               <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
                 COMPRAR AGORA
               </button>
+              
+              {/* Payment methods box - smaller than the button */}
+              <div className="bg-diurie-orange rounded-lg py-2 px-3 mt-3 w-11/12 mx-auto">
+                <p className="text-white text-xs text-center font-medium mb-1">FORMAS DE PAGAMENTO</p>
+                <div className="flex flex-wrap justify-center gap-1">
+                  <img 
+                    src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
+                    alt="Métodos de pagamento" 
+                    className="h-auto w-full"
+                  />
+                </div>
+              </div>
+              
               <div className="flex items-center justify-center mt-4">
                 <span className="text-sm">FRETE GRÁTIS PARA TODO O BRASIL</span>
               </div>
@@ -95,6 +121,19 @@ const PricingSection = () => {
               <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
                 COMPRAR AGORA
               </button>
+              
+              {/* Payment methods box - smaller than the button */}
+              <div className="bg-diurie-orange rounded-lg py-2 px-3 mt-3 w-11/12 mx-auto">
+                <p className="text-white text-xs text-center font-medium mb-1">FORMAS DE PAGAMENTO</p>
+                <div className="flex flex-wrap justify-center gap-1">
+                  <img 
+                    src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
+                    alt="Métodos de pagamento" 
+                    className="h-auto w-full"
+                  />
+                </div>
+              </div>
+              
               <div className="flex items-center justify-center mt-4">
                 <span className="text-sm">FRETE GRÁTIS PARA TODO O BRASIL</span>
               </div>
