@@ -1,5 +1,5 @@
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import {
   Carousel,
@@ -8,7 +8,6 @@ import {
   CarouselPrevious,
   CarouselNext
 } from "@/components/ui/carousel";
-import { useCarousel } from "@/components/ui/carousel";
 
 const IngredientsSection = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -50,11 +49,6 @@ const IngredientsSection = () => {
     ]
   ];
 
-  // Function to handle carousel indicator click
-  const handleTabChange = (index: number) => {
-    setActiveTab(index);
-  };
-
   return (
     <div className="bg-diurie-orange py-16 px-4">
       <div className="container mx-auto">
@@ -66,7 +60,7 @@ const IngredientsSection = () => {
         </h3>
 
         <div className="max-w-7xl mx-auto">
-          <Carousel className="mb-12">
+          <Carousel className="mb-12 relative">
             <CarouselContent>
               {ingredientGroups.map((group, groupIndex) => (
                 <CarouselItem key={`group-${groupIndex}`}>
@@ -88,21 +82,9 @@ const IngredientsSection = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-2 bg-white/70 hover:bg-white border-none" />
-            <CarouselNext className="right-2 bg-white/70 hover:bg-white border-none" />
+            <CarouselPrevious className="-left-16 md:-left-20 bg-white/70 hover:bg-white border-none" />
+            <CarouselNext className="-right-16 md:-right-20 bg-white/70 hover:bg-white border-none" />
           </Carousel>
-
-          {/* Carousel Indicators */}
-          <div className="flex justify-center gap-2 mb-10">
-            {ingredientGroups.map((_, index) => (
-              <button 
-                key={index} 
-                onClick={() => handleTabChange(index)}
-                className={`w-3 h-3 rounded-full transition-all ${index === activeTab ? 'bg-diurie-dark scale-125' : 'bg-white'}`}
-                aria-label={`View ingredient page ${index + 1}`}
-              />
-            ))}
-          </div>
 
           <div className="text-center">
             <a href="#comprar" className="cta-button inline-block px-10 py-4 text-xl">
