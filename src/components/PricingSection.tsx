@@ -38,14 +38,14 @@ const PricingSection = () => {
                 COMPRAR AGORA
               </button>
               
-              {/* Payment methods box - smaller than the button */}
-              <div className="bg-diurie-orange rounded-lg py-2 px-3 mt-3 w-11/12 mx-auto">
-                <p className="text-white text-xs text-center font-medium mb-1">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center gap-1">
+              {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
+              <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
+                <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
+                <div className="flex flex-wrap justify-center">
                   <img 
                     src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
                     alt="Métodos de pagamento" 
-                    className="h-auto w-full"
+                    className="h-auto w-11/12"
                   />
                 </div>
               </div>
@@ -80,14 +80,14 @@ const PricingSection = () => {
                 COMPRAR AGORA
               </button>
               
-              {/* Payment methods box - smaller than the button */}
-              <div className="bg-diurie-orange rounded-lg py-2 px-3 mt-3 w-11/12 mx-auto">
-                <p className="text-white text-xs text-center font-medium mb-1">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center gap-1">
+              {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
+              <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
+                <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
+                <div className="flex flex-wrap justify-center">
                   <img 
                     src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
                     alt="Métodos de pagamento" 
-                    className="h-auto w-full"
+                    className="h-auto w-11/12"
                   />
                 </div>
               </div>
@@ -122,14 +122,14 @@ const PricingSection = () => {
                 COMPRAR AGORA
               </button>
               
-              {/* Payment methods box - smaller than the button */}
-              <div className="bg-diurie-orange rounded-lg py-2 px-3 mt-3 w-11/12 mx-auto">
-                <p className="text-white text-xs text-center font-medium mb-1">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center gap-1">
+              {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
+              <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
+                <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
+                <div className="flex flex-wrap justify-center">
                   <img 
                     src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
                     alt="Métodos de pagamento" 
-                    className="h-auto w-full"
+                    className="h-auto w-11/12"
                   />
                 </div>
               </div>
