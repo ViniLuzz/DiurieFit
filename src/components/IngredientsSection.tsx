@@ -8,52 +8,35 @@ const IngredientsSection = () => {
     [
       {
         name: "Colágeno Hidrolisado",
-        description: "É essencial para manter a elasticidade da pele e a saúde das articulações. Além disso, sua ingestão pode ajudar a promover a sensação de saciedade.",
-        image: "/lovable-uploads/b0bf636b-9950-4958-9209-85a03b7ed845.png"
+        image: "/lovable-uploads/95356d88-cdee-4653-8ff0-3f8c17d435c4.png"
       },
       {
         name: "Carqueja",
-        description: "A Carqueja é conhecida por suas propriedades digestivas e diuréticas, ajudando a promover a eliminação de toxinas e líquidos retidos no corpo.",
-        image: "/lovable-uploads/749ef806-8346-4dc4-b0c5-3579557ce5ce.png"
+        image: "/lovable-uploads/c4224c25-214b-420e-9033-0536ffabae8c.png"
       },
       {
         name: "Picolinado de Cromo",
-        description: "É um mineral essencial que ajuda a regular os níveis de glicose no sangue, reduzindo os picos de açúcar e controlando o apetite.",
-        image: "/lovable-uploads/795c14bd-4b56-4ec2-8a24-f12d4f0476a5.png"
+        image: "/lovable-uploads/d357184a-d04d-4bf0-9396-76992918f67c.png"
       }
     ],
     [
       {
         name: "Chá Verde",
-        description: "É uma poderosa fonte de antioxidantes que ajudam a impulsionar o metabolismo e a queima de gordura.",
-        image: "/lovable-uploads/e98d565f-2ea7-4eeb-ac87-608088d42b08.png"
+        image: "/lovable-uploads/304e06ee-5b8e-4d64-8333-af7537a9d203.png"
       },
       {
         name: "Chá Preto",
-        description: "É conhecido por sua capacidade de aumentar a energia e melhorar o foco. Seus antioxidantes promovem a saúde cardiovascular e ajudam na queima de gordura.",
-        image: "/lovable-uploads/c539cd57-7a9f-4de8-bc55-2ceb8f8725cf.png"
+        image: "/lovable-uploads/fa3286b6-0f29-4fa1-a82d-8622dffb950d.png"
       },
       {
         name: "Chá de Hibisco",
-        description: "O Chá de Hibisco é reconhecido por suas propriedades diuréticas naturais, que ajudam a reduzir a retenção de líquidos e o inchaço.",
-        image: "/lovable-uploads/b1f1f9e5-735d-47fb-9015-eed4960755a2.png"
+        image: "/lovable-uploads/6bae562b-e9e6-4a4b-8951-e399ff0810ea.png"
       }
     ],
     [
       {
         name: "Inulina",
-        description: "É uma fibra prebiótica que promove o crescimento de bactérias benéficas no intestino, melhorando a saúde digestiva e auxiliando na absorção de nutrientes.",
-        image: "/lovable-uploads/8fae3c7b-40b2-4048-b58a-ada0a7b3d8e9.png"
-      },
-      {
-        name: "Chá Verde",
-        description: "É uma poderosa fonte de antioxidantes que ajudam a impulsionar o metabolismo e a queima de gordura.",
-        image: "/lovable-uploads/e98d565f-2ea7-4eeb-ac87-608088d42b08.png"
-      },
-      {
-        name: "Chá Preto",
-        description: "É conhecido por sua capacidade de aumentar a energia e melhorar o foco. Seus antioxidantes promovem a saúde cardiovascular e ajudam na queima de gordura.",
-        image: "/lovable-uploads/c539cd57-7a9f-4de8-bc55-2ceb8f8725cf.png"
+        image: "/lovable-uploads/344e452f-4c9f-4c07-a755-6454c3e4dc87.png"
       }
     ]
   ];
@@ -71,20 +54,11 @@ const IngredientsSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
             {ingredientGroups[activeTab].map((ingredient, index) => (
-              <div key={index} className="ingredient-card">
-                <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-white">
-                  <img 
-                    src={ingredient.image} 
-                    alt={ingredient.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-diurie-dark font-bold text-xl mb-3 text-center">{ingredient.name}</h3>
-                <p className="text-center text-sm text-gray-700">{ingredient.description}</p>
+              <div key={index} className="ingredient-card flex flex-col items-center">
                 <img 
-                  src="/lovable-uploads/d2bd21e2-e01e-42ac-a91e-74960dc85eb4.png" 
-                  alt="DiurieFit logo" 
-                  className="w-16 mt-4 opacity-75 mx-auto"
+                  src={ingredient.image} 
+                  alt={ingredient.name}
+                  className="w-full h-auto rounded-lg"
                 />
               </div>
             ))}
@@ -96,7 +70,7 @@ const IngredientsSection = () => {
               <button 
                 key={index} 
                 onClick={() => setActiveTab(index)}
-                className={`w-2 h-2 rounded-full ${index === activeTab ? 'bg-diurie-dark' : 'bg-white'}`}
+                className={`w-3 h-3 rounded-full transition-all ${index === activeTab ? 'bg-diurie-dark scale-125' : 'bg-white'}`}
                 aria-label={`View ingredient page ${index + 1}`}
               />
             ))}
