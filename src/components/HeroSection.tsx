@@ -1,7 +1,13 @@
 
 import { ArrowDown } from "lucide-react";
+import { scrollToElement } from "@/lib/scrollUtils";
 
 const HeroSection = () => {
+  const handleScrollToComprar = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    scrollToElement('comprar');
+  };
+
   return (
     <div className="relative">
       {/* Yellow banner at the top */}
@@ -25,7 +31,11 @@ const HeroSection = () => {
             <p className="text-white text-base md:text-lg">
               Suplemento em pó com sabor de laranja, 10x mais eficaz na queima de gordura e redução de inchaço.
             </p>
-            <a href="#comprar" className="cta-button inline-block w-full md:w-auto">
+            <a 
+              href="#comprar" 
+              className="cta-button inline-block w-full md:w-auto"
+              onClick={handleScrollToComprar}
+            >
               QUERO TRANSFORMAR MEU CORPO!
             </a>
           </div>

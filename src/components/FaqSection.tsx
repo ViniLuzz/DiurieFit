@@ -7,6 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { scrollToElement } from "@/lib/scrollUtils";
 
 const FaqSection = () => {
   const faqs = [
@@ -31,6 +32,11 @@ const FaqSection = () => {
       answer: "Prazo de entrega de 5 a 10 dias úteis para todo interior do RS, SP e MG. Demais estados de 10 até 15 dias.",
     },
   ];
+
+  const handleScrollToComprar = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    scrollToElement('comprar');
+  };
 
   return (
     <div className="bg-diurie-orange py-16 px-4">
@@ -69,7 +75,11 @@ const FaqSection = () => {
           </Accordion>
           
           <div className="text-center mt-10">
-            <a href="#comprar" className="cta-button inline-block px-10">
+            <a 
+              href="#comprar" 
+              className="cta-button inline-block px-10"
+              onClick={handleScrollToComprar}
+            >
               QUERO EXPERIMENTAR AGORA
             </a>
           </div>
