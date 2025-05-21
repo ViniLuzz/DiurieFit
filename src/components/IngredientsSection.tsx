@@ -1,11 +1,4 @@
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 import { useState } from "react";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
@@ -65,18 +58,21 @@ const IngredientsSection = () => {
         </h3>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-12">
             {ingredientGroups[activeTab].map((ingredient, index) => (
-              <div key={index} className="ingredient-card flex flex-col items-center">
-                <div className="w-full max-w-[300px] mx-auto">
-                  <AspectRatio ratio={1/1} className="bg-white rounded-lg overflow-hidden">
+              <div key={index} className="flex flex-col items-center">
+                <div className="w-full max-w-[240px] mx-auto mb-3">
+                  <AspectRatio ratio={1/1}>
                     <img 
                       src={ingredient.image} 
-                      alt={`Ingredient ${index + 1}`}
-                      className="w-full h-full object-contain p-2"
+                      alt={ingredient.name}
+                      className="w-full h-full object-contain rounded-xl"
                     />
                   </AspectRatio>
                 </div>
+                <h4 className="text-white font-semibold text-center text-lg">
+                  {ingredient.name}
+                </h4>
               </div>
             ))}
           </div>
