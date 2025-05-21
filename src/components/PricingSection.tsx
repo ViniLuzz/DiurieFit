@@ -34,9 +34,16 @@ const PricingSection = () => {
                 <span className="text-6xl font-black">157</span>
               </div>
               <p className="text-gray-500 mb-4">VALOR INDIVIDUAL</p>
-              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
-                COMPRAR AGORA
-              </button>
+              <a 
+                href="https://app.monetizze.com.br/checkout/DXP286325" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block w-full"
+              >
+                <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
+                  COMPRAR AGORA
+                </button>
+              </a>
               
               {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
               <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
@@ -76,9 +83,16 @@ const PricingSection = () => {
                 <span className="text-6xl font-black">327</span>
               </div>
               <p className="text-gray-500 mb-4">ECONOMIA DE R$144,00</p>
-              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
-                COMPRAR AGORA
-              </button>
+              <a 
+                href="https://app.monetizze.com.br/checkout/DDG286326" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block w-full"
+              >
+                <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
+                  COMPRAR AGORA
+                </button>
+              </a>
               
               {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
               <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
@@ -118,9 +132,16 @@ const PricingSection = () => {
                 <span className="text-6xl font-black">467</span>
               </div>
               <p className="text-gray-500 mb-4">ECONOMIA DE R$318,00</p>
-              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
-                COMPRAR AGORA
-              </button>
+              <a 
+                href="https://app.monetizze.com.br/checkout/DBR286327" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block w-full"
+              >
+                <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
+                  COMPRAR AGORA
+                </button>
+              </a>
               
               {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
               <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
