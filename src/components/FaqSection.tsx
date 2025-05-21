@@ -1,42 +1,22 @@
 
-import { useState } from "react";
-import { ArrowDown } from "lucide-react";
-
-interface FaqItemProps {
-  question: string;
-  answer: string;
-  isOpen: boolean;
-  toggle: () => void;
-}
-
-const FaqItem = ({ question, answer, isOpen, toggle }: FaqItemProps) => {
-  return (
-    <div className="mb-4">
-      <button
-        className={`w-full text-left p-4 flex justify-between items-center text-white ${
-          isOpen ? "bg-diurie-dark" : "bg-diurie-orange"
-        }`}
-        onClick={toggle}
-      >
-        <span className="font-medium">{question}</span>
-        <ArrowDown className={`h-4 w-4 transition-transform ${isOpen ? "transform rotate-180" : ""}`} />
-      </button>
-      {isOpen && (
-        <div className="bg-diurie-orange p-4 text-white">
-          <p>{answer}</p>
-        </div>
-      )}
-    </div>
-  );
-};
+import React, { useState } from "react";
+import { Plus, Minus } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const FaqSection = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-  
   const faqs = [
     {
       question: "Como funciona o DiurieFit Black?",
       answer: "É uma bebida emagrecedora com efeito DIURÉTICO que estimula a limpeza e desintoxicação do organismo e fortalece o sistema imunológico.",
+    },
+    {
+      question: "Possui algum efeito colateral, ou contra indicação?",
+      answer: "Não possui efeitos colaterais conhecidos. No entanto, gestantes, lactantes e pessoas com condições médicas específicas devem consultar um médico antes de usar o produto.",
     },
     {
       question: "Como devo tomar o DiurieFit?",
@@ -52,36 +32,45 @@ const FaqSection = () => {
     },
   ];
 
-  const toggleFaq = (index: number) => {
-    if (openIndex === index) {
-      setOpenIndex(null);
-    } else {
-      setOpenIndex(index);
-    }
-  };
-
   return (
     <div className="bg-diurie-orange py-16 px-4">
-      <div className="container mx-auto max-w-3xl">
-        <h2 className="text-white text-center text-2xl md:text-3xl font-bold mb-2">
-          Perguntas Frequentes
-        </h2>
-        <div className="mt-8">
-          {faqs.map((faq, index) => (
-            <FaqItem
-              key={index}
-              question={faq.question}
-              answer={faq.answer}
-              isOpen={openIndex === index}
-              toggle={() => toggleFaq(index)}
-            />
-          ))}
+      <div className="container mx-auto max-w-7xl flex flex-col md:flex-row">
+        <div className="md:w-1/3 mb-8 md:mb-0">
+          <h2 className="text-white text-3xl md:text-4xl font-bold mb-2">
+            Perguntas<br />Frequentes
+          </h2>
+          <div className="w-1/3 h-1 bg-white my-4"></div>
         </div>
         
-        <div className="text-center mt-10">
-          <a href="#comprar" className="cta-button inline-block px-10">
-            QUERO EXPERIMENTAR AGORA
-          </a>
+        <div className="md:w-2/3">
+          <Accordion type="single" collapsible className="w-full">
+            {faqs.map((faq, index) => (
+              <AccordionItem 
+                key={index} 
+                value={`item-${index}`} 
+                className="border-0 mb-2 overflow-hidden"
+              >
+                <AccordionTrigger className={`bg-diurie-dark text-white p-4 flex justify-between items-center w-full focus:no-underline hover:no-underline`}>
+                  <span className="font-medium text-left">{faq.question}</span>
+                  {/* Custom chevron replaced with Plus/Minus */}
+                  <span className="shrink-0">
+                    {/* The Plus/Minus icons will be controlled by the AccordionTrigger's state */}
+                    <Plus className="h-5 w-5 transition-opacity duration-300 ease-in-out [&[data-state=open]]:opacity-0 [&[data-state=open]]:hidden" />
+                    <Minus className="h-5 w-5 transition-opacity duration-300 ease-in-out opacity-0 hidden [&[data-state=open]]:opacity-100 [&[data-state=open]]:block" />
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent className="bg-diurie-orange p-4 text-white animate-accordion-down data-[state=closed]:animate-accordion-up">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+          
+          <div className="text-center mt-10">
+            <a href="#comprar" className="cta-button inline-block px-10">
+              QUERO EXPERIMENTAR AGORA
+            </a>
+          </div>
         </div>
       </div>
     </div>
