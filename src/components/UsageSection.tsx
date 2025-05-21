@@ -6,7 +6,7 @@ const UsageSection = () => {
     <div className="bg-diurie-dark py-16">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-8 items-center justify-center px-4">
         {/* Super Garantia Section */}
-        <div className="bg-diurie-dark text-white p-6 rounded-lg">
+        <div className="bg-diurie-dark text-white p-6 rounded-lg md:w-1/2">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
             Acreditamos tanto no nosso produto que você terá a <span className="text-diurie-orange">Super Garantia</span> de 30 dias!
           </h3>
@@ -20,9 +20,9 @@ const UsageSection = () => {
         </div>
         
         {/* Product Image */}
-        <div className="flex items-center justify-center md:flex-1">
+        <div className="flex items-center justify-center md:w-1/2">
           <img 
-            src="/lovable-uploads/751f76f4-b7d5-4c75-8941-d5130de5f9e4.png" 
+            src="/lovable-uploads/775eea19-1584-494f-99bb-257793684dee.png" 
             alt="DiurieFit Black com garantia de 30 dias" 
             className="max-w-full h-auto max-h-[400px]"
           />
