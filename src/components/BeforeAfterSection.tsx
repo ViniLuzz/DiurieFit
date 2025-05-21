@@ -9,24 +9,24 @@ const BeforeAfterSection = () => {
         
         {/* Before and After Models */}
         <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-8">
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg w-full md:w-80 h-full">
             <h3 className="text-diurie-dark text-lg font-bold text-center mb-2">ANTES</h3>
-            <div className="overflow-hidden rounded-lg">
+            <div className="overflow-hidden rounded-lg h-[450px]">
               <img 
                 src="/lovable-uploads/db9a8ba1-cd14-424a-93ff-13827c101725.png" 
                 alt="Antes de usar DiurieFit Black" 
-                className="w-full h-auto max-h-[500px] object-cover object-top"
+                className="w-full h-full object-cover object-top"
               />
             </div>
           </div>
           
-          <div className="bg-white p-4 rounded-lg">
+          <div className="bg-white p-4 rounded-lg w-full md:w-80 h-full">
             <h3 className="text-diurie-dark text-lg font-bold text-center mb-2">DEPOIS</h3>
-            <div className="overflow-hidden rounded-lg">
+            <div className="overflow-hidden rounded-lg h-[450px]">
               <img 
                 src="/lovable-uploads/c5bf8908-6ae8-4a3b-81d3-e31ae1d291b0.png" 
                 alt="Depois de usar DiurieFit Black" 
-                className="w-full h-auto max-h-[500px] object-cover object-top"
+                className="w-full h-full object-cover object-top"
               />
             </div>
           </div>
