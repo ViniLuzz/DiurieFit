@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <img 
-              src="/lovable-uploads/8ba37467-d720-4311-8832-41ae0172a388.png" 
+              src="/lovable-uploads/c0ed7631-e2f7-4955-ae86-12546bb1d853.png" 
               alt="Antes e depois - Resultados com DiurieFit Black" 
               className="max-w-full h-auto animate-float"
             />
