@@ -15,11 +15,11 @@ const PricingSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {/* 1 Pote */}
-          <div className="bg-white overflow-hidden rounded-2xl shadow-lg">
+          <div className="bg-white overflow-hidden rounded-2xl shadow-lg h-full flex flex-col">
             <div className="bg-diurie-orange py-2">
               <p className="text-white text-center font-bold">EXPERIMENTE</p>
             </div>
-            <div className="p-4 flex flex-col items-center">
+            <div className="p-4 flex flex-col items-center flex-grow">
               <h3 className="text-center font-bold text-xl mb-4">COMPRE 1 POTE</h3>
               <div className="h-48 flex items-center justify-center">
                 <img 
@@ -34,7 +34,7 @@ const PricingSection = () => {
                 <span className="text-6xl font-black">157</span>
               </div>
               <p className="text-gray-500 mb-4">VALOR INDIVIDUAL</p>
-              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors">
+              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
                 COMPRAR AGORA
               </button>
               <div className="flex items-center justify-center mt-4">
@@ -44,11 +44,11 @@ const PricingSection = () => {
           </div>
 
           {/* 3 Potes */}
-          <div className="bg-white overflow-hidden rounded-2xl shadow-lg transform scale-105 z-10">
+          <div className="bg-white overflow-hidden rounded-2xl shadow-lg transform scale-105 z-10 h-full flex flex-col">
             <div className="bg-diurie-orange py-2">
               <p className="text-white text-center font-bold">R$109 POR POTE</p>
             </div>
-            <div className="p-4 flex flex-col items-center">
+            <div className="p-4 flex flex-col items-center flex-grow">
               <h3 className="text-center font-bold text-xl mb-4">COMPRE 3 POTES</h3>
               <div className="h-48 flex items-center justify-center">
                 <img 
@@ -63,7 +63,7 @@ const PricingSection = () => {
                 <span className="text-6xl font-black">327</span>
               </div>
               <p className="text-gray-500 mb-4">ECONOMIA DE R$144,00</p>
-              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors">
+              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
                 COMPRAR AGORA
               </button>
               <div className="flex items-center justify-center mt-4">
@@ -73,11 +73,11 @@ const PricingSection = () => {
           </div>
 
           {/* 5 Potes */}
-          <div className="bg-white overflow-hidden rounded-2xl shadow-lg">
+          <div className="bg-white overflow-hidden rounded-2xl shadow-lg h-full flex flex-col">
             <div className="bg-diurie-orange py-2">
               <p className="text-white text-center font-bold">R$93,40 POR POTE</p>
             </div>
-            <div className="p-4 flex flex-col items-center">
+            <div className="p-4 flex flex-col items-center flex-grow">
               <h3 className="text-center font-bold text-xl mb-4">COMPRE 5 POTES</h3>
               <div className="h-48 flex items-center justify-center">
                 <img 
@@ -92,7 +92,7 @@ const PricingSection = () => {
                 <span className="text-6xl font-black">467</span>
               </div>
               <p className="text-gray-500 mb-4">ECONOMIA DE R$318,00</p>
-              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors">
+              <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto">
                 COMPRAR AGORA
               </button>
               <div className="flex items-center justify-center mt-4">
