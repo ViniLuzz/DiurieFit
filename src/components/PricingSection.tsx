@@ -23,7 +23,7 @@ const PricingSection = () => {
               <h3 className="text-center font-bold text-xl mb-4">COMPRE 1 POTE</h3>
               <div className="h-48 flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/107dcf7e-9e6c-4d6a-8ef0-46389976452c.png" 
+                  src="/lovable-uploads/6418066e-e575-491b-8250-89e1c20a30af.png" 
                   alt="1 pote de DiurieFit Black" 
                   className="h-full object-contain"
                 />
@@ -52,7 +52,7 @@ const PricingSection = () => {
               <h3 className="text-center font-bold text-xl mb-4">COMPRE 3 POTES</h3>
               <div className="h-48 flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/2dc8c9f6-b5d0-42f4-8a1f-ff0960211a4c.png" 
+                  src="/lovable-uploads/47c2f45a-8d7d-4a95-a097-cc9ec5870b1c.png" 
                   alt="3 potes de DiurieFit Black" 
                   className="h-full object-contain"
                 />
@@ -81,7 +81,7 @@ const PricingSection = () => {
               <h3 className="text-center font-bold text-xl mb-4">COMPRE 5 POTES</h3>
               <div className="h-48 flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/863b2199-1c17-4d14-b8a3-96553f0a0ec8.png" 
+                  src="/lovable-uploads/3164dd5e-aeee-42e5-87fc-74be833bfbed.png" 
                   alt="5 potes de DiurieFit Black" 
                   className="h-full object-contain"
                 />
