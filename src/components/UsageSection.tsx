@@ -27,7 +27,7 @@ const UsageSection = () => {
         <div className="max-w-5xl mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
             <img 
-              
+              src="/lovable-uploads/d97a376c-6056-40aa-a20f-5d279fc69cc9.png"
               alt="DiurieFit Black com selo de garantia de 30 dias" 
               className="max-w-full h-auto"
             />
