@@ -65,21 +65,18 @@ const IngredientsSection = () => {
         </h3>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
             {ingredientGroups[activeTab].map((ingredient, index) => (
-              <div key={index} className="flex flex-col items-center">
-                <div className="w-full max-w-[180px] mx-auto">
-                  <AspectRatio ratio={1/1} className="rounded-full overflow-hidden border-4 border-white">
+              <div key={index} className="ingredient-card flex flex-col items-center">
+                <div className="w-full max-w-[300px] mx-auto">
+                  <AspectRatio ratio={1/1} className="bg-white rounded-lg overflow-hidden">
                     <img 
                       src={ingredient.image} 
-                      alt={ingredient.name}
-                      className="w-full h-full object-cover"
+                      alt={`Ingredient ${index + 1}`}
+                      className="w-full h-full object-contain p-2"
                     />
                   </AspectRatio>
                 </div>
-                <h4 className="text-diurie-dark text-xl font-bold mt-4 text-center">
-                  {ingredient.name}
-                </h4>
               </div>
             ))}
           </div>
