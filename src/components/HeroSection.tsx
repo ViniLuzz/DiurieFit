@@ -38,19 +38,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      
-      {/* Orange banner */}
-      <div className="bg-diurie-orange py-6 px-4 text-center">
-        <h3 className="text-white text-xl md:text-2xl lg:text-3xl font-bold">
-          Nova fórmula <span className="text-diurie-dark">resultados mais rápidos!</span>
-        </h3>
-      </div>
-      
-      {/* Scroll down indicator */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-        <ArrowDown size={24} />
-      </div>
-    </div>
   );
 };
 
