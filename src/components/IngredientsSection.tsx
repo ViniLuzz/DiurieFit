@@ -57,11 +57,11 @@ const IngredientsSection = () => {
           bebida emagrecedora do Brasil
         </h3>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 mb-12">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
             {ingredientGroups[activeTab].map((ingredient, index) => (
               <div key={index} className="flex flex-col items-center">
-                <div className="w-full max-w-[240px] mx-auto mb-3">
+                <div className="w-full max-w-[400px] mx-auto">
                   <AspectRatio ratio={1/1}>
                     <img 
                       src={ingredient.image} 
@@ -70,9 +70,6 @@ const IngredientsSection = () => {
                     />
                   </AspectRatio>
                 </div>
-                <h4 className="text-white font-semibold text-center text-lg">
-                  {ingredient.name}
-                </h4>
               </div>
             ))}
           </div>
