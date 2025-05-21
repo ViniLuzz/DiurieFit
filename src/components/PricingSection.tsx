@@ -1,8 +1,8 @@
 
 const PricingSection = () => {
   return (
-    <div id="comprar" className="bg-diurie-dark py-16 px-4">
-      <div className="container mx-auto">
+    <div id="comprar" className="bg-diurie-dark py-16">
+      <div className="container mx-auto px-4">
         <h2 className="text-white text-center text-2xl md:text-3xl font-bold mb-2">
           Escolha o seu <span className="text-diurie-orange">kit ideal</span> para o seu tratamento
         </h2>
@@ -36,7 +36,7 @@ const PricingSection = () => {
           <div className="overflow-hidden rounded-2xl shadow-lg">
             <img 
               src="/lovable-uploads/863b2199-1c17-4d14-b8a3-96553f0a0ec8.png" 
-              alt="3 potes de DiurieFit Black" 
+              alt="5 potes de DiurieFit Black" 
               className="w-full h-auto"
             />
           </div>
