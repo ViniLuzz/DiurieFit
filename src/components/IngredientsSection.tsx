@@ -7,6 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useState, useEffect } from "react";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const IngredientsSection = () => {
   const [activeTab, setActiveTab] = useState(0);
@@ -67,11 +68,15 @@ const IngredientsSection = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
             {ingredientGroups[activeTab].map((ingredient, index) => (
               <div key={index} className="ingredient-card flex flex-col items-center">
-                <img 
-                  src={ingredient.image} 
-                  alt={`Ingredient ${index + 1}`}
-                  className="w-full h-auto rounded-lg"
-                />
+                <div className="w-full max-w-[300px] mx-auto">
+                  <AspectRatio ratio={1/1} className="bg-white rounded-lg overflow-hidden">
+                    <img 
+                      src={ingredient.image} 
+                      alt={`Ingredient ${index + 1}`}
+                      className="w-full h-full object-contain p-2"
+                    />
+                  </AspectRatio>
+                </div>
               </div>
             ))}
           </div>
