@@ -15,75 +15,43 @@ const PricingSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {/* 1 Pote */}
-          <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-            <div className="bg-diurie-orange py-2 text-white text-center font-bold">
-              EXPERIMENTE
-            </div>
-            <div className="p-6 flex flex-col items-center">
-              <h3 className="text-xl font-bold mb-4 text-center">COMPRE 1 POTE</h3>
-              <img 
-                src="/lovable-uploads/263a93b2-7a88-48d4-bca6-95c4a5c6a62e.png" 
-                alt="1 pote de DiurieFit Black" 
-                className="w-40 h-auto mb-4"
-              />
-              <p className="text-gray-500 text-center mb-2">POR APENAS:</p>
-              <p className="text-5xl font-bold text-center mb-2">R$ 157</p>
-              <p className="text-gray-500 text-xs text-center mb-4">VALOR INDIVIDUAL</p>
-              <a href="#" className="cta-button w-full">
-                COMPRAR AGORA
-              </a>
-              <div className="flex items-center mt-4 text-xs text-gray-500">
-                <span>🚚 FRETE GRÁTIS PARA TODO O BRASIL</span>
-              </div>
-            </div>
+          <div className="overflow-hidden rounded-2xl shadow-lg">
+            <img 
+              src="/lovable-uploads/107dcf7e-9e6c-4d6a-8ef0-46389976452c.png" 
+              alt="1 pote de DiurieFit Black" 
+              className="w-full h-auto"
+            />
           </div>
 
           {/* 3 Potes */}
-          <div className="bg-white rounded-2xl overflow-hidden shadow-lg transform scale-105 z-10">
-            <div className="bg-diurie-orange py-2 text-white text-center font-bold">
-              R$109 POR POTE
-            </div>
-            <div className="p-6 flex flex-col items-center">
-              <h3 className="text-xl font-bold mb-4 text-center">COMPRE 3 POTES</h3>
-              <img 
-                src="/lovable-uploads/263a93b2-7a88-48d4-bca6-95c4a5c6a62e.png" 
-                alt="3 potes de DiurieFit Black" 
-                className="w-40 h-auto mb-4"
-              />
-              <p className="text-gray-500 text-center mb-2">POR APENAS:</p>
-              <p className="text-5xl font-bold text-center mb-2">R$ 327</p>
-              <p className="text-gray-500 text-xs text-center mb-4">ECONOMIA DE R$144,00</p>
-              <a href="#" className="cta-button w-full">
-                COMPRAR AGORA
-              </a>
-              <div className="flex items-center mt-4 text-xs text-gray-500">
-                <span>🚚 FRETE GRÁTIS PARA TODO O BRASIL</span>
-              </div>
-            </div>
+          <div className="overflow-hidden rounded-2xl shadow-lg transform scale-105 z-10">
+            <img 
+              src="/lovable-uploads/2dc8c9f6-b5d0-42f4-8a1f-ff0960211a4c.png" 
+              alt="3 potes de DiurieFit Black" 
+              className="w-full h-auto"
+            />
           </div>
 
           {/* 5 Potes */}
-          <div className="bg-white rounded-2xl overflow-hidden shadow-lg">
-            <div className="bg-diurie-orange py-2 text-white text-center font-bold">
-              R$93,40 POR POTE
-            </div>
-            <div className="p-6 flex flex-col items-center">
-              <h3 className="text-xl font-bold mb-4 text-center">COMPRE 5 POTES</h3>
-              <img 
-                src="/lovable-uploads/263a93b2-7a88-48d4-bca6-95c4a5c6a62e.png" 
-                alt="5 potes de DiurieFit Black" 
-                className="w-40 h-auto mb-4"
-              />
-              <p className="text-gray-500 text-center mb-2">POR APENAS:</p>
-              <p className="text-5xl font-bold text-center mb-2">R$ 467</p>
-              <p className="text-gray-500 text-xs text-center mb-4">ECONOMIA DE R$318,00</p>
-              <a href="#" className="cta-button w-full">
-                COMPRAR AGORA
-              </a>
-              <div className="flex items-center mt-4 text-xs text-gray-500">
-                <span>🚚 FRETE GRÁTIS PARA TODO O BRASIL</span>
-              </div>
-            </div>
+          <div className="overflow-hidden rounded-2xl shadow-lg">
+            <img 
+              src="/lovable-uploads/863b2199-1c17-4d14-b8a3-96553f0a0ec8.png" 
+              alt="5 potes de DiurieFit Black" 
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+        
+        <div className="mt-12 text-center">
+          <div className="inline-flex items-center justify-center bg-white rounded-full px-6 py-3 mb-6">
+            <img 
+              src="/lovable-uploads/d97a376c-6056-40aa-a20f-5d279fc69cc9.png" 
+              alt="Garantia de 30 dias" 
+              className="h-20"
+            />
+            <p className="text-diurie-dark font-semibold ml-4">
+              30 DIAS DE GARANTIA INCONDICIONAL
+            </p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ const SafetySection = () => {
     <div className="bg-gray-100 py-16 px-4">
       <div className="container mx-auto max-w-5xl">
         <div className="flex flex-col md:flex-row items-center bg-diurie-orange rounded-xl overflow-hidden">
-          <div className="md:w-3/5 p-8">
+          <div className="md:w-1/2 p-8">
             <h3 className="text-white font-bold text-xl mb-3">
               DiurieFit Black é seguro para consumo, é dispensado pela ANVISA
             </h3>
@@ -19,6 +19,13 @@ const SafetySection = () => {
                 Aprovado pelo Ministério da Saúde
               </p>
             </div>
+          </div>
+          <div className="md:w-1/2">
+            <img 
+              src="/lovable-uploads/83585dd2-ec32-4056-bd04-c6c8b96301f5.png" 
+              alt="Mulher consumindo DiurieFit Black" 
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </div>
