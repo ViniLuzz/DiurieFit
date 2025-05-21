@@ -48,7 +48,7 @@ const PricingSection = () => {
               {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
               <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
                 <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap justify-center pb-2">
                   <img 
                     src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
                     alt="Métodos de pagamento" 
@@ -97,7 +97,7 @@ const PricingSection = () => {
               {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
               <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
                 <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap justify-center pb-2">
                   <img 
                     src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
                     alt="Métodos de pagamento" 
@@ -146,7 +146,7 @@ const PricingSection = () => {
               {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
               <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
                 <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap justify-center pb-2">
                   <img 
                     src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
                     alt="Métodos de pagamento" 
