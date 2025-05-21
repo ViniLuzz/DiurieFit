@@ -11,14 +11,6 @@ const SafetySection = () => {
             <p className="text-white text-sm mb-4">
               Após testes o DiurieFit Black foi 100% dispensado pela ANVISA (Agência de Vigilância Sanitária) e pelo Ministério da Saúde. Não oferece nenhum risco à saúde e não possui efeitos colaterais, seu consumo é totalmente seguro.
             </p>
-            <div className="flex items-center">
-              <div className="bg-gray-800 rounded-full w-12 h-12 flex items-center justify-center mr-4">
-                <span className="text-white font-bold text-xs">ANVISA</span>
-              </div>
-              <p className="text-white text-sm font-medium">
-                Aprovado pelo Ministério da Saúde
-              </p>
-            </div>
           </div>
           <div className="md:w-1/2">
             <img 
