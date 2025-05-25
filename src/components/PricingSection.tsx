@@ -47,7 +47,6 @@ const PricingSection = () => {
               
               {/* Payment methods - black icons without orange card */}
               <div className="mt-4 w-full">
-                <p className="text-gray-600 text-xs text-center font-medium mb-2">FORMAS DE PAGAMENTO</p>
                 <div className="flex justify-center">
                   <img 
                     src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
@@ -96,7 +95,6 @@ const PricingSection = () => {
               
               {/* Payment methods - black icons without orange card */}
               <div className="mt-4 w-full">
-                <p className="text-gray-600 text-xs text-center font-medium mb-2">FORMAS DE PAGAMENTO</p>
                 <div className="flex justify-center">
                   <img 
                     src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
@@ -145,7 +143,6 @@ const PricingSection = () => {
               
               {/* Payment methods - black icons without orange card */}
               <div className="mt-4 w-full">
-                <p className="text-gray-600 text-xs text-center font-medium mb-2">FORMAS DE PAGAMENTO</p>
                 <div className="flex justify-center">
                   <img 
                     src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
