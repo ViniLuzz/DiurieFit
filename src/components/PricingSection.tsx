@@ -51,7 +51,7 @@ const PricingSection = () => {
                   <img 
                     src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
                     alt="Métodos de pagamento" 
-                    className="h-auto w-11/12"
+                    className="h-auto w-6/7"
                   />
                 </div>
               </div>
@@ -99,7 +99,7 @@ const PricingSection = () => {
                   <img 
                     src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
                     alt="Métodos de pagamento" 
-                    className="h-auto w-11/12"
+                    className="h-auto w-6/7"
                   />
                 </div>
               </div>
@@ -147,7 +147,7 @@ const PricingSection = () => {
                   <img 
                     src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
                     alt="Métodos de pagamento" 
-                    className="h-auto w-11/12"
+                    className="h-auto w-6/7"
                   />
                 </div>
               </div>
