@@ -45,12 +45,12 @@ const PricingSection = () => {
                 </button>
               </a>
               
-              {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
-              <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
-                <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center pb-2">
+              {/* Payment methods - black icons without orange card */}
+              <div className="mt-4 w-full">
+                <p className="text-gray-600 text-xs text-center font-medium mb-2">FORMAS DE PAGAMENTO</p>
+                <div className="flex justify-center">
                   <img 
-                    src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
+                    src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
                     alt="Métodos de pagamento" 
                     className="h-auto w-11/12"
                   />
@@ -94,12 +94,12 @@ const PricingSection = () => {
                 </button>
               </a>
               
-              {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
-              <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
-                <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center pb-2">
+              {/* Payment methods - black icons without orange card */}
+              <div className="mt-4 w-full">
+                <p className="text-gray-600 text-xs text-center font-medium mb-2">FORMAS DE PAGAMENTO</p>
+                <div className="flex justify-center">
                   <img 
-                    src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
+                    src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
                     alt="Métodos de pagamento" 
                     className="h-auto w-11/12"
                   />
@@ -143,12 +143,12 @@ const PricingSection = () => {
                 </button>
               </a>
               
-              {/* Payment methods box - smaller, darker orange, and positioned closer to the button */}
-              <div className="bg-[#D84E04] rounded-b-lg py-1 px-2 mt-0 -mt-1 w-10/12 mx-auto">
-                <p className="text-white text-xs text-center font-medium">FORMAS DE PAGAMENTO</p>
-                <div className="flex flex-wrap justify-center pb-2">
+              {/* Payment methods - black icons without orange card */}
+              <div className="mt-4 w-full">
+                <p className="text-gray-600 text-xs text-center font-medium mb-2">FORMAS DE PAGAMENTO</p>
+                <div className="flex justify-center">
                   <img 
-                    src="/lovable-uploads/c7a249bc-d574-4eaf-a2d8-a19b46248152.png" 
+                    src="/lovable-uploads/a5a8d58a-023c-422a-b5de-ebb95803e03f.png" 
                     alt="Métodos de pagamento" 
                     className="h-auto w-11/12"
                   />
