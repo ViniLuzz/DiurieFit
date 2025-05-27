@@ -9,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative" styles="position:fixed;top:0;">
       {/* Yellow banner at the top */}
       <div className="bg-diurie-yellow py-3 px-4 text-center text-diurie-dark text-sm md:text-base lg:text-lg font-medium">
         <span>QUANTO MAIS POTES LEVAR, </span>
