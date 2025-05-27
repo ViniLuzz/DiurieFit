@@ -1,24 +1,58 @@
 
 import { ArrowDown } from "lucide-react";
 import { scrollToElement } from "@/lib/scrollUtils";
+import { useState, useEffect } from "react";
 
 const HeroSection = () => {
+  const [timeLeft, setTimeLeft] = useState({
+    hours: 5,
+    minutes: 0,
+    seconds: 0
+  });
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(prev => {
+        let { hours, minutes, seconds } = prev;
+        
+        if (seconds > 0) {
+          seconds--;
+        } else if (minutes > 0) {
+          minutes--;
+          seconds = 59;
+        } else if (hours > 0) {
+          hours--;
+          minutes = 59;
+          seconds = 59;
+        }
+        
+        return { hours, minutes, seconds };
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   const handleScrollToComprar = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     scrollToElement('comprar');
   };
 
+  const formatTime = (time: number) => String(time).padStart(2, '0');
+
   return (
     <div className="relative">
-      {/* Yellow banner at the top */}
-      <div className="bg-diurie-yellow py-3 px-4 text-center text-diurie-dark text-sm md:text-base lg:text-lg font-medium">
-        <span>QUANTO MAIS POTES LEVAR, </span>
-        <span className="text-red-600 font-bold">MAIS DESCONTOS</span>
-        <span> VOCÊ GANHA!</span>
+      {/* Fixed Yellow banner at the top */}
+      <div className="fixed top-0 left-0 right-0 bg-diurie-yellow py-3 px-4 text-center text-diurie-dark text-sm md:text-base lg:text-lg font-medium z-50">
+        <span>LEVE 3 DIURIE FIT COM UM SUPER DESCONTO POR </span>
+        <span className="text-diurie-orange font-bold">TEMPO LIMITADO</span>
+        <div className="mt-2 text-lg font-bold">
+          {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)}
+        </div>
       </div>
 
-      {/* Hero section with product image */}
-      <div className="bg-diurie-dark min-h-[80vh] flex flex-col md:flex-row items-center justify-center py-12 px-4 md:px-8 lg:px-12">
+      {/* Hero section with product image - add top padding to account for fixed banner */}
+      <div className="bg-diurie-dark min-h-[80vh] flex flex-col md:flex-row items-center justify-center py-12 px-4 md:px-8 lg:px-12 pt-24">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="md:w-1/2 text-left space-y-6">
             <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
