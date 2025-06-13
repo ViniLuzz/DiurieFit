@@ -83,7 +83,7 @@ const PricingSection = () => {
               </div>
               <p className="text-gray-500 mb-4">ECONOMIA DE R$144,00</p>
               <a 
-                href="https://app.monetizze.com.br/checkout/DDG286326" 
+                href="https://app.monetizze.com.br/r/ACW25332227?u=c&pl=DG286326" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full"
@@ -131,7 +131,7 @@ const PricingSection = () => {
               </div>
               <p className="text-gray-500 mb-4">ECONOMIA DE R$318,00</p>
               <a 
-                href="https://app.monetizze.com.br/checkout/DBR286327" 
+                href="https://app.monetizze.com.br/r/ACW25332227?u=c&pl=BR286327" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full"
