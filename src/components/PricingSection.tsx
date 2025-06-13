@@ -35,7 +35,7 @@ const PricingSection = () => {
               </div>
               <p className="text-gray-500 mb-4">VALOR INDIVIDUAL</p>
               <a 
-                href="https://app.monetizze.com.br/checkout/DXP286325" 
+                href="https://app.monetizze.com.br/r/ACW25332227?u=c&pl=XP286325" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full"
