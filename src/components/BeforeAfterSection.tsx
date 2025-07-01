@@ -4,7 +4,7 @@ const BeforeAfterSection = () => {
     <div className="bg-diurie-dark py-12 px-4">
       <div className="container mx-auto">
         <h2 className="text-white text-center text-2xl md:text-3xl lg:text-4xl font-bold mb-8">
-          Resultados <span className="text-diurie-orange">visíveis em apenas 6 dias!</span>
+          Resultados <span className="text-diurie-orange">visíveis e surpreendentes!</span>
         </h2>
         
         {/* Before and After Models */}

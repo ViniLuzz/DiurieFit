@@ -61,7 +61,7 @@ const HeroSection = () => {
               <span className="text-diurie-orange">Fit Black</span>
             </h1>
             <h2 className="text-diurie-orange text-2xl md:text-3xl font-bold">
-              Transforme seu corpo: <span className="text-white">resultados <br />em apenas 6 dias!</span>
+              Desperte sua melhor versão: <span className="text-white">Começe e <br />surpreenda-se!</span>
             </h2>
             <p className="text-white text-base md:text-lg">
               Suplemento em pó com sabor de laranja, 10x mais eficaz na queima de gordura e redução de inchaço.
