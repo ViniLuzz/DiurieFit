@@ -4,7 +4,7 @@ const SecuritySection = () => {
     <div className="bg-diurie-yellow py-12 px-4">
       <div className="container mx-auto">
         <h2 className="text-center text-2xl md:text-3xl font-bold mb-8">
-          Veja como é rápido e fácil comprar seu <span className="text-diurie-orange">DiurieFit Black</span>
+          Veja como é rápido e fácil comprar seu <span className="text-diurie-#c10000">DiurieFit Black</span>
         </h2>
         <p className="text-center text-lg mb-12">
           Comprar DiurieFit Black é fácil, prático e totalmente seguro.
