@@ -84,7 +84,7 @@ const HeroSection = () => {
               className="max-w-full h-auto animate-float"
             />
             {/* Disclaimer Seal */}
-            <div className="absolute bottom-4 right-4 bg-black/70 text-white text-xs px-2 py-1 rounded-md max-w-[160px] backdrop-blur-sm">
+            <div className="absolute bottom-4 left-4 bg-black/70 text-white text-xs px-2 py-1 rounded-md max-w-[160px] backdrop-blur-sm">
               <p className="text-center leading-tight">
                 Resultados individuais; não substitui atendimento médico
               </p>
