@@ -40,9 +40,6 @@ const FooterSection = () => {
         
         <div className="text-xs text-gray-400 text-center">
           <p className="mb-2">
-            "This site is not part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, INC."
-          </p>
-          <p className="mb-2">
             CNPJ: 55.120.600/0001-85
           </p>
           <p className="mb-2">
