@@ -45,8 +45,16 @@ const HeroSection = () => {
       <div className="fixed top-0 left-0 right-0 bg-diurie-yellow py-6 px-4 text-center text-diurie-dark text-lg md:text-xl lg:text-2xl font-bold z-50">
         <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4">
           <span>LEVE 3 DIURIE FIT COM DESCONTO ESPECIAL POR </span>
-          <span className="text-diurie-orange">TEMPO LIMITADO</span>
-          <span className="text-2xl md:text-3xl lg:text-4xl">
+          <span style={{ color: '#c10000' }}>TEMPO LIMITADO</span>
+          <span 
+            className="text-white font-bold"
+            style={{ 
+              background: '#c10000',
+              padding: '10px 15px',
+              borderRadius: '16px',
+              fontSize: '26px'
+            }}
+          >
             {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)}
           </span>
         </div>
@@ -58,7 +66,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 text-left space-y-6">
             <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
               <span className="text-diurie-orange">Diurie</span> <br />
-              <span className="text-diurie-orange">Fit Black</span>
+              <span style={{ color: '#c10000' }}>Fit Black</span>
             </h1>
             <h2 className="text-diurie-orange text-2xl md:text-3xl font-bold">
               Reduza medidas e retenção com <span className="text-white">ingredientes naturais <br />selecionados</span>

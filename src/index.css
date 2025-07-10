@@ -107,6 +107,7 @@
 
   .cta-button {
     @apply bg-diurie-cta text-white font-bold py-3 px-6 rounded-lg uppercase tracking-wider shadow-lg hover:brightness-110 transition-all transform hover:scale-105 text-center;
+    font-size: 20px;
   }
   
   .product-benefit-card {
