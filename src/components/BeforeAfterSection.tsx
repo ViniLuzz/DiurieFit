@@ -34,10 +34,13 @@ const BeforeAfterSection = () => {
         
         <div className="mt-8 text-center">
           <p className="text-gray-300 text-lg">
-            Resultados reais de clientes que utilizaram o <span className="text-diurie-orange font-bold">DiurieFit Black</span> seguindo as recomendações.
+            Resultados de clientes que utilizaram o <span className="text-diurie-orange font-bold">DiurieFit Black</span> seguindo as recomendações.
+          </p>
+          <p className="text-gray-400 text-sm italic mt-2">
+            *Resultados podem variar de pessoa para pessoa.
           </p>
           <a href="#comprar" className="cta-button mt-6 inline-block">
-            QUERO ESSES RESULTADOS!
+            QUERO COMEÇAR AGORA!
           </a>
         </div>
       </div>

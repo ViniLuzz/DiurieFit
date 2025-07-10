@@ -44,7 +44,7 @@ const HeroSection = () => {
       {/* Fixed Yellow banner at the top */}
       <div className="fixed top-0 left-0 right-0 bg-diurie-yellow py-6 px-4 text-center text-diurie-dark text-lg md:text-xl lg:text-2xl font-bold z-50">
         <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4">
-          <span>LEVE 3 DIURIE FIT COM UM SUPER DESCONTO POR </span>
+          <span>LEVE 3 DIURIE FIT COM DESCONTO ESPECIAL POR </span>
           <span className="text-diurie-orange">TEMPO LIMITADO</span>
           <span className="text-2xl md:text-3xl lg:text-4xl">
             {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)}
@@ -61,17 +61,20 @@ const HeroSection = () => {
               <span className="text-diurie-orange">Fit Black</span>
             </h1>
             <h2 className="text-diurie-orange text-2xl md:text-3xl font-bold">
-              Desperte sua melhor versão: <span className="text-white">Começe e <br />surpreenda-se!</span>
+              Reduza medidas e retenção com <span className="text-white">ingredientes naturais <br />selecionados</span>
             </h2>
             <p className="text-white text-base md:text-lg">
-              Suplemento em pó com sabor de laranja, 10x mais eficaz na queima de gordura e redução de inchaço.
+              Suplemento em pó com sabor de laranja que pode auxiliar no processo de redução de retenção.
+            </p>
+            <p className="text-gray-300 text-sm italic mt-2">
+              *Este produto não substitui medicamentos e seus efeitos podem variar conforme o organismo.
             </p>
             <a 
               href="#comprar" 
               className="cta-button inline-block w-full md:w-auto"
               onClick={handleScrollToComprar}
             >
-              QUERO TRANSFORMAR MEU CORPO!
+              QUERO COMEÇAR AGORA!
             </a>
           </div>
           <div className="md:w-1/2 flex justify-center">

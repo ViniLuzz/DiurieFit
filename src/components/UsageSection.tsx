@@ -14,7 +14,7 @@ const UsageSection = () => {
         {/* Super Garantia Section */}
         <div className="bg-diurie-dark text-white p-6 rounded-lg md:w-1/2">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
-            Acreditamos tanto no nosso produto que você terá a <span className="text-diurie-orange">Super Garantia</span> de 30 dias!
+            Acreditamos tanto no nosso produto que você terá a <span className="text-diurie-orange">Garantia</span> de 30 dias!
           </h3>
           <p className="mb-6 text-base">
             Risco Zero Para Você! Para provar, devolvemos o seu dinheiro se o produto não atender as expectativas. 

@@ -43,7 +43,13 @@ const FooterSection = () => {
             "This site is not part of the Facebook website or Facebook Inc. Additionally, this site is NOT endorsed by Facebook in any way. FACEBOOK is a trademark of FACEBOOK, INC."
           </p>
           <p className="mb-2">
+            CNPJ: 55.120.600/0001-85
+          </p>
+          <p className="mb-2">
             COPYRIGHT © DIUREFIT BLACK | TODOS OS DIREITOS RESERVADOS.
+          </p>
+          <p className="mb-2">
+            Este produto não substitui medicamentos e seus efeitos podem variar conforme o organismo. Resultados podem variar de pessoa para pessoa.
           </p>
           <p>
             Todo o conteúdo do site, todas as fotos, imagens, logotipos, marcas, layout, aqui veiculados são de propriedade exclusiva da empresa. É vetada qualquer reprodução, total ou parcial, de qualquer elemento de identidade, sem expressa autorização. A violação de qualquer direito mencionado será responsabilidade de quem a fizer.

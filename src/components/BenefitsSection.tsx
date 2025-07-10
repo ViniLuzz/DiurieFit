@@ -7,13 +7,13 @@ const BenefitsSection = () => {
       icon: "💧"
     },
     {
-      title: "Queima de Gordura",
-      description: "Ajuda a queima de gordura localizada, especialmente com a ajuda de seus filtros ativos.",
+      title: "Auxílio Natural",
+      description: "Pode auxiliar no processo natural do corpo com ingredientes selecionados.",
       icon: "🔥"
     },
     {
       title: "Ação Detox",
-      description: "Limpa seu corpo de toxinas prejudiciais, preparando-o para uma completa transformação.",
+      description: "Pode auxiliar na limpeza natural do organismo com ingredientes naturais.",
       icon: "🌿"
     },
     {

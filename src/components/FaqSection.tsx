@@ -25,7 +25,7 @@ const FaqSection = () => {
     },
     {
       question: "DiurieFit é seguro?",
-      answer: "SIM! Nosso produto foi testado e dispensado pela ANVISA (Agência Nacional de Vigilância Sanitária), além de possuir, 30 dias de garantia.",
+      answer: "SIM! Nosso produto foi testado e dispensado pela ANVISA (Agência Nacional de Vigilância Sanitária), além de possuir 30 dias de garantia. Os efeitos podem variar conforme o organismo.",
     },
     {
       question: "Qual o prazo de entrega?",
