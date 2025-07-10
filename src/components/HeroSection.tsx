@@ -1,43 +1,11 @@
 import { ArrowDown } from "lucide-react";
 import { scrollToElement } from "@/lib/scrollUtils";
-import { useState, useEffect } from "react";
 
 const HeroSection = () => {
-  const [timeLeft, setTimeLeft] = useState({
-    hours: 5,
-    minutes: 0,
-    seconds: 0
-  });
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(prev => {
-        let { hours, minutes, seconds } = prev;
-        
-        if (seconds > 0) {
-          seconds--;
-        } else if (minutes > 0) {
-          minutes--;
-          seconds = 59;
-        } else if (hours > 0) {
-          hours--;
-          minutes = 59;
-          seconds = 59;
-        }
-        
-        return { hours, minutes, seconds };
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
   const handleScrollToComprar = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     scrollToElement('comprar');
   };
-
-  const formatTime = (time: number) => String(time).padStart(2, '0');
 
   return (
     <div className="relative">
@@ -46,17 +14,6 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4">
           <span>LEVE 3 DIURIE FIT COM DESCONTO ESPECIAL POR </span>
           <span style={{ color: '#c10000' }}>TEMPO LIMITADO</span>
-          <span 
-            className="text-white font-bold"
-            style={{ 
-              background: '#c10000',
-              padding: '10px 15px',
-              borderRadius: '16px',
-              fontSize: '26px'
-            }}
-          >
-            {formatTime(timeLeft.hours)}:{formatTime(timeLeft.minutes)}:{formatTime(timeLeft.seconds)}
-          </span>
         </div>
       </div>
 
@@ -88,7 +45,7 @@ const HeroSection = () => {
           <div className="md:w-1/2 flex justify-center relative">
             <img 
               src="/lovable-uploads/c0ed7631-e2f7-4955-ae86-12546bb1d853.png" 
-              alt="Antes e depois - Resultados com DiurieFit Black" 
+              alt="Veja relatos de quem já testou DiurieFit Black" 
               className="max-w-full h-auto animate-float"
             />
             {/* Disclaimer Seal */}
