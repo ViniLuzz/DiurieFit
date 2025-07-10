@@ -2,8 +2,8 @@
 const BenefitsSection = () => {
   const benefits = [
     {
-      title: "Efeito Diurético",
-      description: "Auxilia na eliminação de líquidos retidos, preparando-o para uma perda de concentração.",
+      title: "Equilíbrio Natural",
+      description: "Auxilia no equilíbrio corporal com ingredientes naturais selecionados.",
       icon: "💧"
     },
     {
@@ -17,8 +17,8 @@ const BenefitsSection = () => {
       icon: "🌿"
     },
     {
-      title: "Xô Inchaço",
-      description: "Elimina o ar do seu corpo, descartando o inchaço indesejado.",
+      title: "Bem-estar",
+      description: "Apoia o bem-estar diário com ingredientes naturais.",
       icon: "👙"
     }
   ];

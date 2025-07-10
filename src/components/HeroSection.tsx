@@ -69,10 +69,10 @@ const HeroSection = () => {
               <span style={{ color: '#c10000' }}>Fit Black</span>
             </h1>
             <h2 className="text-diurie-orange text-2xl md:text-3xl font-bold">
-              Reduza medidas e retenção com <span className="text-white">ingredientes naturais <br />selecionados</span>
+              Suplemento com <span className="text-white">ingredientes naturais <br />selecionados</span> que apoia seu bem-estar
             </h2>
             <p className="text-white text-base md:text-lg">
-              Suplemento em pó com sabor de laranja que pode auxiliar no processo de redução de retenção.
+              Suplemento em pó com sabor de laranja que auxilia no equilíbrio corporal.
             </p>
             <p className="text-gray-300 text-sm italic mt-2">
               *Este produto não substitui medicamentos e seus efeitos podem variar conforme o organismo.

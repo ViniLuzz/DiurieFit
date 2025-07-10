@@ -13,7 +13,7 @@ const FaqSection = () => {
   const faqs = [
     {
       question: "Como funciona o DiurieFit Black?",
-      answer: "É uma bebida emagrecedora com efeito DIURÉTICO que estimula a limpeza e desintoxicação do organismo e fortalece o sistema imunológico.",
+      answer: "É um suplemento com ingredientes naturais que auxilia no equilíbrio corporal, apoia a limpeza natural do organismo e contribui para o bem-estar.",
     },
     {
       question: "Possui algum efeito colateral, ou contra indicação?",
