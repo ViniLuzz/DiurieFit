@@ -77,12 +77,18 @@ const HeroSection = () => {
               QUERO COMEÇAR AGORA!
             </a>
           </div>
-          <div className="md:w-1/2 flex justify-center">
+          <div className="md:w-1/2 flex justify-center relative">
             <img 
               src="/lovable-uploads/c0ed7631-e2f7-4955-ae86-12546bb1d853.png" 
               alt="Antes e depois - Resultados com DiurieFit Black" 
               className="max-w-full h-auto animate-float"
             />
+            {/* Disclaimer Seal */}
+            <div className="absolute bottom-4 right-4 bg-black/70 text-white text-xs px-2 py-1 rounded-md max-w-[160px] backdrop-blur-sm">
+              <p className="text-center leading-tight">
+                Resultados individuais; não substitui atendimento médico
+              </p>
+            </div>
           </div>
         </div>
       </div>
