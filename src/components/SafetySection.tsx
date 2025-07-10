@@ -6,10 +6,10 @@ const SafetySection = () => {
         <div className="flex flex-col md:flex-row items-center bg-diurie-orange rounded-xl overflow-hidden shadow-lg">
           <div className="md:w-1/2 p-8">
             <h3 className="text-white font-bold text-2xl mb-4">
-              DiurieFit Black é seguro para consumo, é dispensado pela ANVISA
+              DiurieFit Black é isento de registro conforme RDC ANVISA
             </h3>
             <p className="text-white text-base mb-6">
-              Após testes o DiurieFit Black foi 100% dispensado pela ANVISA (Agência de Vigilância Sanitária) e pelo Ministério da Saúde. Não oferece nenhum risco à saúde e não possui efeitos colaterais, seu consumo é totalmente seguro.
+              Este suplemento é isento de registro conforme RDC ANVISA (Agência Nacional de Vigilância Sanitária). Este suplemento não substitui tratamento médico. Resultados podem variar.
             </p>
           </div>
           <div className="md:w-1/2">
