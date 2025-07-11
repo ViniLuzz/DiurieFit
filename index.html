@@ -51,16 +51,30 @@
           });
         }
 
-        // Event for buttons with class "btn-comprar-agora"
-        var comprarAgoraButtons = document.querySelectorAll('.btn-comprar-agora');
-        comprarAgoraButtons.forEach(function(button) {
+      // Event for buttons with class "btn-tem-interesse"
+        var temInteresseButtons = document.querySelectorAll('.btn-tem-interesse');
+        temInteresseButtons.forEach(function(button) {
           button.addEventListener('click', function() {
-            gtag('event', 'conversion', {
-              'send_to': 'AW-17146788150/E_luCK_9y9MaELbynPA_'
-            });
+            gtag_report_conversion_interesse();
           });
         });
       });
+
+      // Function to report conversion for "Botão Tem Interesse"
+      function gtag_report_conversion_interesse(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17146788150/xVy9CPSF0O4aELbynPA_',
+            'value': 0.0,
+            'currency': 'BRL',
+            'event_callback': callback
+        });
+        return false;
+      }
 
       // Function to report conversion for the R$157 button
       function gtag_report_conversion_157(url) {

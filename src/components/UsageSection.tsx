@@ -22,7 +22,7 @@ const UsageSection = () => {
           </p>
           <a 
             href="#comprar" 
-            className="cta-button bg-[#36B536] inline-block w-full py-4 text-center text-lg font-bold"
+            className="cta-button bg-[#36B536] inline-block w-full py-4 text-center text-lg font-bold btn-tem-interesse"
             onClick={handleScrollToComprar}
           >
             QUERO MEU DIURIEFIT

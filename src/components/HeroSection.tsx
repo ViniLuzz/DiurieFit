@@ -36,7 +36,8 @@ const HeroSection = () => {
             </p>
             <a 
               href="#comprar" 
-              className="cta-button inline-block w-full md:w-auto"
+              id="btn-interesse"
+              className="cta-button inline-block w-full md:w-auto btn-tem-interesse"
               onClick={handleScrollToComprar}
             >
               QUERO COMEÇAR AGORA!
