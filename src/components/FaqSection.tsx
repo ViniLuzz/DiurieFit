@@ -77,7 +77,7 @@ const FaqSection = () => {
           <div className="text-center mt-10">
             <a 
               href="#comprar" 
-              className="cta-button inline-block px-10"
+              className="cta-button inline-block px-10 btn-tem-interesse"
               onClick={handleScrollToComprar}
             >
               QUERO EXPERIMENTAR AGORA

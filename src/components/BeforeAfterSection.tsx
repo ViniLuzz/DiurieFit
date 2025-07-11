@@ -39,7 +39,7 @@ const BeforeAfterSection = () => {
           <p className="text-gray-400 text-sm italic mt-2">
             *Resultados podem variar de pessoa para pessoa.
           </p>
-          <a href="#comprar" className="cta-button mt-6 inline-block">
+          <a href="#comprar" className="cta-button mt-6 inline-block btn-tem-interesse">
             QUERO COMEÇAR AGORA!
           </a>
         </div>

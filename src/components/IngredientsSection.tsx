@@ -87,7 +87,7 @@ const IngredientsSection = () => {
           </Carousel>
 
           <div className="text-center">
-            <a href="#comprar" className="cta-button inline-block px-10 py-4 text-xl">
+            <a href="#comprar" className="cta-button inline-block px-10 py-4 text-xl btn-tem-interesse">
               QUERO COMPRAR AGORA
             </a>
           </div>
