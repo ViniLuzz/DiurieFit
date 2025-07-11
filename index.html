@@ -37,5 +37,77 @@
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Google Ads Conversion Events -->
+    <script>
+      // Event for "Quero Começar Agora" button (ID: btn-interesse)
+      document.addEventListener('DOMContentLoaded', function() {
+        var btnInteresse = document.getElementById('btn-interesse');
+        if (btnInteresse) {
+          btnInteresse.addEventListener('click', function() {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-17146788150/E_luCK_9y9MaELbynPA_'
+            });
+          });
+        }
+
+        // Event for buttons with class "btn-comprar-agora"
+        var comprarAgoraButtons = document.querySelectorAll('.btn-comprar-agora');
+        comprarAgoraButtons.forEach(function(button) {
+          button.addEventListener('click', function() {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-17146788150/E_luCK_9y9MaELbynPA_'
+            });
+          });
+        });
+      });
+
+      // Function to report conversion for the R$157 button
+      function gtag_report_conversion_157(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17146788150/kg3zCJKFm9oaELbynPA_',
+            'transaction_id': '',
+            'event_callback': callback
+        });
+        return false;
+      }
+
+      // Function to report conversion for the R$357 button
+      function gtag_report_conversion_357(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17146788150/Ff2eCJWFm9oaELbynPA_',
+            'transaction_id': '',
+            'event_callback': callback
+        });
+        return false;
+      }
+
+      // Function to report conversion for the R$467 button
+      function gtag_report_conversion_467(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17146788150/uD-vCJiFm9oaELbynPA_',
+            'value': 216.89,
+            'currency': 'BRL',
+            'transaction_id': '',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script>
   </body>
 </html>
