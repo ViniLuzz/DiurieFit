@@ -45,9 +45,11 @@ const PricingSection = () => {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full"
-                onClick={(e) => {
-                  gtag_report_conversion_157(e.currentTarget.href);
-                  return true;
+                onClick={() => {
+                  try {
+                    gtag_report_conversion_157('https://app.monetizze.com.br/r/ACW25332227?u=c&pl=XP286325');
+                  } catch (e) {}
+                  window.open('https://app.monetizze.com.br/r/ACW25332227?u=c&pl=XP286325', '_blank');
                 }}
               >
                 <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto btn-comprar-agora">
@@ -97,9 +99,11 @@ const PricingSection = () => {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full"
-                onClick={(e) => {
-                  gtag_report_conversion_357(e.currentTarget.href);
-                  return true;
+                onClick={() => {
+                  try {
+                    gtag_report_conversion_357('https://app.monetizze.com.br/r/ACW25332227?u=c&pl=DG286326');
+                  } catch (e) {}
+                  window.open('https://app.monetizze.com.br/r/ACW25332227?u=c&pl=DG286326', '_blank');
                 }}
               >
                 <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto btn-comprar-agora">
@@ -149,9 +153,11 @@ const PricingSection = () => {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block w-full"
-                onClick={(e) => {
-                  gtag_report_conversion_467(e.currentTarget.href);
-                  return true;
+                onClick={() => {
+                  try {
+                    gtag_report_conversion_467('https://app.monetizze.com.br/r/ACW25332227?u=c&pl=BR286327');
+                  } catch (e) {}
+                  window.open('https://app.monetizze.com.br/r/ACW25332227?u=c&pl=BR286327', '_blank');
                 }}
               >
                 <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto btn-comprar-agora">
