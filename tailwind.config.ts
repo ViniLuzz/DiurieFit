@@ -63,10 +63,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
                 // Custom colors for DiurieFit Black
-                'diurie-orange': '#E85D04',
-                'diurie-dark': '#231F20',
-                'diurie-yellow': '#FFBA08',
-                'diurie-cta': '#36B536',
+                'diurie-orange': 'hsl(var(--diurie-orange))',
+                'diurie-dark': 'hsl(var(--diurie-dark))',
+                'diurie-cta': 'hsl(var(--diurie-cta))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
