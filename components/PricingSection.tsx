@@ -46,8 +46,8 @@ const PricingSection = () => {
                 rel="noopener noreferrer" 
                 className="block w-full"
                 onClick={(e) => {
-                  e.preventDefault();
                   gtag_report_conversion_157(e.currentTarget.href);
+                  return true;
                 }}
               >
                 <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto btn-comprar-agora">
@@ -98,8 +98,8 @@ const PricingSection = () => {
                 rel="noopener noreferrer" 
                 className="block w-full"
                 onClick={(e) => {
-                  e.preventDefault();
                   gtag_report_conversion_357(e.currentTarget.href);
+                  return true;
                 }}
               >
                 <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto btn-comprar-agora">
@@ -150,8 +150,8 @@ const PricingSection = () => {
                 rel="noopener noreferrer" 
                 className="block w-full"
                 onClick={(e) => {
-                  e.preventDefault();
                   gtag_report_conversion_467(e.currentTarget.href);
+                  return true;
                 }}
               >
                 <button className="bg-green-500 text-white text-lg font-bold py-3 px-6 rounded-lg w-full hover:bg-green-600 transition-colors mt-auto btn-comprar-agora">
