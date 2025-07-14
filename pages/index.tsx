@@ -1,11 +1,12 @@
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
-// Importar componentes (vamos migrar um por um)
+// Importar componentes
 import HeroSection from '@/components/HeroSection';
 import BenefitsSection from '@/components/BenefitsSection';
 import IngredientsSection from '@/components/IngredientsSection';
 import SafetySection from '@/components/SafetySection';
+import BeforeAfterSection from '@/components/BeforeAfterSection';
 import PricingSection from '@/components/PricingSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import SecuritySection from '@/components/SecuritySection';
@@ -52,6 +53,7 @@ export default function Home({ serverTime }: HomeProps) {
           <BenefitsSection />
           <IngredientsSection />
           <SafetySection />
+          <BeforeAfterSection />
           <PricingSection />
           <TestimonialsSection />
           <SecuritySection />
